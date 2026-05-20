@@ -1,8 +1,25 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { X, PlayCircle } from 'lucide-react';
 import './VideoModal.css';
 
 const VideoModal = ({ isOpen, onClose, videoUrl, title, description = [], icon = '' }) => {
+    const videoRef = useRef(null);
+
+    useEffect(() => {
+        if (!isOpen || !videoUrl || videoUrl.includes('youtube.com') || videoUrl.includes('youtu.be')) return;
+
+        const video = videoRef.current;
+        if (!video) return;
+
+        video.load();
+        const playPromise = video.play();
+        if (playPromise && typeof playPromise.then === 'function') {
+            playPromise.catch(() => {
+                // Autoplay may be blocked; user can still click play manually.
+            });
+        }
+    }, [isOpen, videoUrl]);
+
     if (!isOpen) return null;
 
     return (
@@ -48,6 +65,7 @@ const VideoModal = ({ isOpen, onClose, videoUrl, title, description = [], icon =
                     ) : (
                         <video
                             key={videoUrl}
+                            ref={videoRef}
                             controls
                             autoPlay
                             muted

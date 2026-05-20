@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import profilePic from '../assets/profile.jpg';
+import profilePic from '../assets/profile1.jpg';
 import resume from '../assets/L.Sukanya__Resume.pdf';
 import './About.css';
 
