@@ -75,28 +75,40 @@
     padding-left: 5px;
 }
 
-.footer-contact .contact-detail {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 20px;
+.footer-education p,
+.footer-achievements p,
+.footer-achievements ul {
     color: var(--text-grey);
+    line-height: 1.8;
+    margin-bottom: 15px;
 }
 
-.newsletter-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.footer-education-school {
+    font-weight: 600;
 }
 
-.newsletter-form input {
-    width: 100%;
-    padding: 12px 15px;
-    background-color: var(--bg-primary);
-    border: 1px solid var(--border-color);
-    border-radius: 5px;
-    color: var(--text-white);
-    outline: none;
+.footer-education-degree,
+.footer-education-details {
+    font-size: 14px;
+}
+
+.footer-achievements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-achievements ul li {
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 18px;
+}
+
+.footer-achievements ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--accent-color);
 }
 
 .footer-bottom {

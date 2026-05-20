@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin, Github, MessageCircle } from 'lucide-react';
+import { Linkedin, Mail, Github, MessageCircle } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
@@ -36,29 +36,28 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="footer-item footer-contact">
-                        <h3>Contact Info</h3>
-                        <div className="contact-detail">
-                            <MapPin size={18} className="text-pink" />
-                            <span>Hyderabad, India</span>
-                        </div>
-                        <div className="contact-detail">
-                            <Phone size={18} className="text-pink" />
-                            <span>+91 94913 16259</span>
-                        </div>
-                        <div className="contact-detail">
-                            <Mail size={18} className="text-pink" />
-                            <span>sukanyal1627@gmail.com</span>
-                        </div>
+                    <div className="footer-item footer-education">
+                        <h3>Education</h3>
+                        <p className="footer-education-school">
+                            Ellenki College of Engineering and Technology<br />
+                            Affiliated to JNTUH
+                        </p>
+                        <p className="footer-education-degree">
+                            B.Tech in Electronics and Communication Engineering
+                        </p>
+                        <p className="footer-education-details">
+                            Nov 2022 – May 2026 | CGPA: 8.5/10
+                        </p>
                     </div>
 
-                    <div className="footer-item footer-newsletter">
-                        <h3>Newsletter</h3>
-                        <p>Subscribe to our newsletter for latest updates.</p>
-                        <form className="newsletter-form">
-                            <input type="email" placeholder="Your Email" />
-                            <button type="submit" className="btn-pink">Subscribe</button>
-                        </form>
+                    <div className="footer-item footer-achievements">
+                        <h3>Achievements & Certifications</h3>
+                        <ul>
+                            <li>Recognized as Finalist in Consecutive Years – TASK Code Unnati Innovation Marathon (SAP & Edunet, 2025 & 2026)</li>
+                            <li>Emerging Technologies Certification — SAP & Edunet Foundation, 2025</li>
+                            <li>Oracle Cloud Infrastructure 2025 Certified Data Science Professional</li>
+                            <li>Foundation: Introduction to LangChain — LangChain Academy, 2026</li>
+                        </ul>
                     </div>
                 </div>
                 <div className="footer-bottom">
