@@ -38,6 +38,7 @@ const VideoModal = ({ isOpen, onClose, videoUrl, title, description = [], icon =
                 <div className="video-viewport">
                     {videoUrl.includes('youtube.com') || videoUrl.includes('youtu.be') ? (
                         <iframe
+                            key={videoUrl}
                             src={videoUrl.replace('watch?v=', 'embed/')}
                             title={title}
                             frameBorder="0"
@@ -45,7 +46,15 @@ const VideoModal = ({ isOpen, onClose, videoUrl, title, description = [], icon =
                             allowFullScreen
                         ></iframe>
                     ) : (
-                        <video controls autoPlay className="local-video">
+                        <video
+                            key={videoUrl}
+                            controls
+                            autoPlay
+                            muted
+                            playsInline
+                            preload="metadata"
+                            className="local-video"
+                        >
                             <source src={videoUrl} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
