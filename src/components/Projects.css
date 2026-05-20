@@ -41,7 +41,7 @@
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 15px;
-    color: var(--text-white);
+    color: pink;
     line-height: 1.4;
 }
 
@@ -105,4 +105,4 @@
     .projects-grid {
         grid-template-columns: 1fr;
     }
-}
+}

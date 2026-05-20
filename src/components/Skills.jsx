@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { BarChart3 } from 'lucide-react';
 import './Skills.css';
 
 const DevIcon = ({ src, alt, className = "" }) => (
@@ -110,7 +111,7 @@ const Skills = () => {
         },
         {
             name: "Power BI",
-            icon: <DevIcon src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/microsoftpowerbi.svg" alt="Power BI" />,
+            icon: <BarChart3 size={40} className="text-pink" />,
             desc: "Data visualization and business intelligence dashboards."
         },
         {

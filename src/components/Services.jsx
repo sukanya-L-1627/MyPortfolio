@@ -46,8 +46,7 @@ const Services = () => {
         <section id="services" className="services-section section-padding">
             <div className="container">
                 <div className="section-header">
-                    <h2>Our Services</h2>
-                    <p>We provide a wide range of services to help you grow your business.</p>
+                    <h2>what can i do for you</h2>
                 </div>
                 <div className="services-grid">
                     {services.map((service, index) => (

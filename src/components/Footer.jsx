@@ -30,33 +30,18 @@ const Footer = () => {
                             <li><a href="#about">About</a></li>
                             <li><a href="#services">Services</a></li>
                             <li><a href="#skills">Skills</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#portfolio">Projects</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
 
-                    <div className="footer-item footer-education">
-                        <h3>Education</h3>
-                        <p className="footer-education-school">
-                            Ellenki College of Engineering and Technology<br />
-                            Affiliated to JNTUH
+                    <div className="footer-item footer-cta">
+                        <h3>Let's Work Together</h3>
+                        <p>
+                            I'm currently looking for new opportunities. Whether you have a question or just want to say hi,
+                            I'll try my best to get back to you!
                         </p>
-                        <p className="footer-education-degree">
-                            B.Tech in Electronics and Communication Engineering
-                        </p>
-                        <p className="footer-education-details">
-                            Nov 2022 – May 2026 | CGPA: 8.5/10
-                        </p>
-                    </div>
-
-                    <div className="footer-item footer-achievements">
-                        <h3>Achievements & Certifications</h3>
-                        <ul>
-                            <li>Recognized as Finalist in Consecutive Years – TASK Code Unnati Innovation Marathon (SAP & Edunet, 2025 & 2026)</li>
-                            <li>Emerging Technologies Certification — SAP & Edunet Foundation, 2025</li>
-                            <li>Oracle Cloud Infrastructure 2025 Certified Data Science Professional</li>
-                            <li>Foundation: Introduction to LangChain — LangChain Academy, 2026</li>
-                        </ul>
+                        <a href="#contact" className="btn-pink footer-cta-btn">Get In Touch</a>
                     </div>
                 </div>
                 <div className="footer-bottom">
