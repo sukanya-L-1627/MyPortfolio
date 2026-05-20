@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import profilePic from '../assets/profile.jpg';
-import cleanPortrait from 'C:/Users/HP/.gemini/antigravity/brain/ba405f00-f8b3-4f4e-a591-cf8a78088972/sukanya_professional_portrait_clean_1778955233746.png';
 import resume from '../assets/L.Sukanya__Resume.pdf';
 import './Hero.css';
 
