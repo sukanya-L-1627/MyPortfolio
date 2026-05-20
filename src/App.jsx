@@ -3,6 +3,8 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import Education from './components/Education'
+import Achievements from './components/Achievements'
 import Services from './components/Services'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
@@ -24,6 +26,8 @@ function App() {
       <main className="main-content">
         <Hero />
         <About />
+        <Education />
+        <Achievements />
         <Services />
         <Skills />
         <Projects />
