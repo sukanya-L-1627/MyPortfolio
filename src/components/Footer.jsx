@@ -20,7 +20,6 @@ const Footer = () => {
                             <a href="https://wa.me/919491316259" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="social-link"><MessageCircle size={20} /></a>
                             <a href="https://www.linkedin.com/in/sukanya27" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="social-link"><Linkedin size={20} /></a>
                             <a href="https://github.com/sukanya-L-1627" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="social-link"><Github size={20} /></a>
-                            <a href="tel:9491316259" aria-label="Call" className="social-link"><Phone size={20} /></a>
                         </div>
                     </div>
 
