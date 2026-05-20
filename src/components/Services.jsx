@@ -30,9 +30,15 @@ const Services = () => {
             icon: <Database size={40} className="text-pink" />
         },
         {
-            title: "Data Engineering & Viz",
-            desc: "Architecting data pipelines and creating interactive dashboards with Power BI and Streamlit.",
-            icon: <LineChart size={40} className="text-pink" />
+            title: "Power BI",
+            desc: "Data visualization and business intelligence dashboards.",
+            icon: <img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/microsoftpowerbi.svg"
+                alt="Power BI"
+                width={40}
+                height={40}
+                style={{ objectFit: 'contain' }}
+            />
         }
     ];
 

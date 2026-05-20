@@ -73,21 +73,6 @@ const Hero = () => {
                             <div className="portrait-container">
                                 <img src={profilePic} alt="Sukanya" />
                             </div>
-
-                            {/* Floating Badges */}
-                            <motion.div
-                                className="sinau-badge badge-top"
-                                animate={{ y: [0, -10, 0] }}
-                                transition={{ duration: 3, repeat: Infinity }}
-                            >
-                                <div className="badge-icon">🤖</div>
-                                <div className="badge-info">
-                                    <h4>10+</h4>
-                                    <p>AI Agents</p>
-                                    <p>Enthusiast</p>
-                                </div>
-                            </motion.div>
-
                         </div>
                     </motion.div>
                 </div>
