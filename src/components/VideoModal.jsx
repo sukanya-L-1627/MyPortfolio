@@ -43,7 +43,7 @@ const VideoModal = ({ isOpen, onClose, videoUrl, title, description = [], icon =
                         <ul className="modal-desc-list">
                             {description.map((point, idx) => (
                                 <li key={idx} className="modal-desc-item">
-                                    <span className="modal-desc-bullet">▸</span>
+                                    <span className="modal-desc-bullet">▶</span>
                                     <span>{point}</span>
                                 </li>
                             ))}

@@ -7,6 +7,7 @@ import movieRecommendationVideo from '../assets/Movie_recommendation_System.mp4'
 import churnVideo from '../assets/Customer_churn_intelligence_system.mp4';
 import motoriqVideo from '../assets/MOTORIQ.mp4';
 import tripiqVideo from '../assets/TripIQ.mp4';
+import airlineChatbotVideo from '../assets/AIrline_Chatbot.mp4';
 import './Projects.css';
 
 const Projects = () => {
@@ -51,6 +52,22 @@ const Projects = () => {
         },
         {
             id: 3,
+            title: "Airlines Chatbot",
+            domain: "GenAI / Conversational AI",
+            summary: "GenAI-powered airline policy chatbot explaining baggage rules, check-in timelines, and travel guidelines with strict query guardrails.",
+            icon: "✈️",
+            description: [
+                "Developed a GenAI-powered airline policy chatbot to explain baggage rules, check-in timelines, boarding procedures, and travel guidelines in simple language.",
+                "Integrated Gemini Flash with prompt-engineering guardrails to ensure explanation-only responses while blocking booking, refund, and pricing-related queries.",
+                "Built a secure Streamlit web application with environment-based API key management and real-time passenger query handling.",
+                "Implemented policy validation logic to detect restricted intents and provide safe, controlled responses for aviation use cases.",
+                "Designed a modular architecture with separate layers for UI, prompt control, AI integration, and query safety validation."
+            ],
+            tech: ["Python", "Streamlit", "Gemini Flash", "Google AI Studio API", "Prompt Engineering", "Query Validation"],
+            video: airlineChatbotVideo,
+        },
+        {
+            id: 4,
             title: "CineSense– Movie discovery platform",
             domain: "Recommendation Systems",
             summary: "AI-powered movie discovery platform using hybrid filtering and association rule mining.",
@@ -64,7 +81,7 @@ const Projects = () => {
             video: movieRecommendationVideo,
         },
         {
-            id: 4,
+            id: 5,
             title: "Explainable Multi-Label Intent and Emotion Detection System",
             domain: "Natural Language Processing",
             summary: "Hybrid NLP system identifying user intent and emotional tone in customer support.",
@@ -78,7 +95,7 @@ const Projects = () => {
             video: emotionVideo,
         },
         {
-            id: 5,
+            id: 6,
             title: "Customer Churn Intelligence System",
             domain: "Customer Analytics / ML",
             summary: "End-to-end ML system predicting customer churn probability, timing, and risk factors.",

@@ -15,11 +15,16 @@
 }
 
 .video-modal-content {
+    --card-bg: #1e1e1e;
+    --text-primary: #ffffff;
+    --text-secondary: #e5e7eb;
     background: var(--card-bg);
     width: 100%;
     max-width: 860px;
+    max-height: 90vh;
     border-radius: 20px;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
     box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.6);
     border: 1px solid var(--border-color);
     animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
@@ -33,12 +38,17 @@
     padding: 1.25rem 1.75rem;
     background: black;
     border-bottom: 1px solid var(--border-color);
+    color: #ffffff !important;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .modal-header-left {
     display: flex;
     align-items: center;
     gap: 0.6rem;
+    color: #ffffff !important;
 }
 
 .modal-flame {
@@ -49,14 +59,16 @@
 .video-modal-header h3 {
     font-size: 1.25rem;
     font-weight: 700;
-    color: var(--text-primary);
+    color: #ffffff !important;
     letter-spacing: -0.02em;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .video-close-btn {
     background: transparent;
     border: none;
-    color: var(--text-secondary);
+    color: #ffffff !important;
     cursor: pointer;
     transition: all 0.25s ease;
     display: flex;
@@ -68,7 +80,7 @@
 
 .video-close-btn:hover {
     background: rgba(124, 58, 237, 0.12);
-    color: var(--accent-color);
+    color: var(--accent-color) !important;
     transform: rotate(90deg);
 }
 
@@ -99,9 +111,9 @@
 
 .modal-desc-bullet {
     color: var(--accent-color);
-    font-size: 0.9rem;
+    font-size: 0.65rem;
     flex-shrink: 0;
-    margin-top: 3px;
+    margin-top: 6px;
 }
 
 /* ── Video ── */
