@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import profilePic from '../assets/profile1.jpg';
-import resume from '../assets/L.Sukanya__Resume.pdf';
 import './About.css';
 
 const About = () => {
@@ -47,7 +46,7 @@ const About = () => {
                         </p>
                         <div className="about-btns-row">
                             <a href="#contact" className="btn-pink">HIRE ME</a>
-                            <a href={resume} download="L.Sukanya_Resume.pdf" className="btn-outline ml-3">DOWNLOAD CV</a>
+                            <a href="/L.Sukanya__Resume.pdf" download="L.Sukanya_Resume.pdf" className="btn-outline ml-3">DOWNLOAD CV</a>
                         </div>
                     </motion.div>
                 </div>

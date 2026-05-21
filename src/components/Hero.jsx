@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import profilePic from '../assets/profile.jpg';
-import resume from '../assets/L.Sukanya__Resume.pdf';
 import './Hero.css';
 
 const Hero = () => {
@@ -57,7 +56,7 @@ const Hero = () => {
                         </p>
                         <div className="sinau-btns">
                             <a href="#contact" className="btn-pink">HIRE ME</a>
-                            <a href={resume} target="_blank" rel="noopener noreferrer" className="btn-outline ml-3">VIEW RESUME</a>
+                            <a href="/L.Sukanya__Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-outline ml-3">VIEW RESUME</a>
                         </div>
 
                     </motion.div>
