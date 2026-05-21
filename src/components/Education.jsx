@@ -9,7 +9,7 @@ const Education = () => {
             school: 'Ellenki College of Engineering and Technology',
             details: 'Affiliated to JNTUH — B.Tech in Electronics and Communication Engineering',
             period: 'Nov 2022 – May 2026',
-            grade: 'CGPA: 8.5/10'
+            grade: 'CGPA: 8.62/10'
         }
     ];
 
