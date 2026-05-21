@@ -56,7 +56,7 @@ const Hero = () => {
                         </p>
                         <div className="sinau-btns">
                             <a href="#contact" className="btn-pink">HIRE ME</a>
-                            <a href="/L.Sukanya__Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-outline ml-3">VIEW RESUME</a>
+                            <a href="/Lambaday_Sukanya__Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-outline ml-3">VIEW RESUME</a>
                         </div>
 
                     </motion.div>

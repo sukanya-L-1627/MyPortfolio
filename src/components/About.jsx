@@ -46,7 +46,7 @@ const About = () => {
                         </p>
                         <div className="about-btns-row">
                             <a href="#contact" className="btn-pink">HIRE ME</a>
-                            <a href="/L.Sukanya__Resume.pdf" download="L.Sukanya_Resume.pdf" className="btn-outline ml-3">DOWNLOAD CV</a>
+                            <a href="/Lambaday_Sukanya__Resume.pdf" download="Lambaday_Sukanya_Resume.pdf" className="btn-outline ml-3">DOWNLOAD CV</a>
                         </div>
                     </motion.div>
                 </div>
