@@ -46,7 +46,7 @@ const Projects = () => {
                 "Automated the complete booking flow, including intelligent bus selection, hotel suggestions, and last-mile planning.",
                 "Integrated real-time APIs to enable agents to analyze travel options and execute decisions based on user preferences."
             ],
-            tech: ["Python", "MCP", "AI Agents", "Streamlit", "APIs"],
+            tech: ["Python", "MCP", "AI Agents", "React", "APIs", "LLMs", "LangGraph"],
             video: tripiqVideo,
         },
         {
