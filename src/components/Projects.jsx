@@ -8,6 +8,7 @@ import churnVideo from '../assets/Customer_churn_intelligence_system.mp4';
 import motoriqVideo from '../assets/MOTORIQ.mp4';
 import tripiqVideo from '../assets/TripIQ.mp4';
 import airlineChatbotVideo from '../assets/AIrline_Chatbot.mp4';
+import recruitmentVideo from '../assets/Multi Agent AI Recruitment Automation Platform.mp4';
 import './Projects.css';
 
 const Projects = () => {
@@ -22,6 +23,23 @@ const Projects = () => {
     };
 
     const projectList = [
+        {
+            id: 0,
+            title: "AI-Powered Multi-Agent Recruitment Automation Platform",
+            domain: "Multi-Agent AI / Enterprise AI",
+            summary: "Enterprise-grade AI hiring assistant automating recruitment workflows using autonomous AI agents — from resume parsing to interview generation and candidate ranking.",
+            icon: "🤖",
+            description: [
+                "Built an enterprise-grade AI hiring assistant using CrewAI for multi-agent orchestration, automating the complete recruitment lifecycle end-to-end.",
+                "Implemented resume parsing, skill extraction, ATS scoring, semantic candidate-job matching, candidate ranking, and automated email communication.",
+                "Engineered interview question generation and recruiter summary generation using LangChain and Google Gemini API for intelligent reasoning.",
+                "Used Sentence Transformers and FAISS for semantic vector search and RAG-based intelligent candidate retrieval.",
+                "Delivered a modern React.js dashboard with real-time analytics, ATS score visualizations, candidate insights, and semantic search capabilities.",
+                "Demonstrates multi-agent systems, NLP, vector databases, semantic similarity, workflow automation, and enterprise full-stack AI engineering."
+            ],
+            tech: ["CrewAI", "LangChain", "Gemini API", "Sentence Transformers", "FAISS", "React.js", "Python", "RAG", "NLP", "Vector DB"],
+            video: recruitmentVideo,
+        },
         {
             id: 1,
             title: "MotorIQ – Intelligent Condition Monitoring",
