@@ -23,5 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 
-# Large video files (exceed GitHub's 100MB limit)
-public/videos/Multi Agent AI Recruitment Automation Platform.mp4
