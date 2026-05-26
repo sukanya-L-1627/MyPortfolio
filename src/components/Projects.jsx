@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { PlayCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import VideoModal from './VideoModal';
-import emotionVideo from '../assets/Intent & Emotion Intelligence System.mp4';
-import movieRecommendationVideo from '../assets/Movie_recommendation_System.mp4';
-import churnVideo from '../assets/Customer_churn_intelligence_system.mp4';
-import motoriqVideo from '../assets/MOTORIQ.mp4';
-import tripiqVideo from '../assets/TripIQ.mp4';
-import airlineChatbotVideo from '../assets/AIrline_Chatbot.mp4';
-import recruitmentVideo from '../assets/Multi Agent AI Recruitment Automation Platform.mp4';
+const emotionVideo = '/videos/Intent & Emotion Intelligence System.mp4';
+const movieRecommendationVideo = '/videos/Movie_recommendation_System.mp4';
+const churnVideo = '/videos/Customer_churn_intelligence_system.mp4';
+const motoriqVideo = '/videos/MOTORIQ.mp4';
+const tripiqVideo = '/videos/TripIQ.mp4';
+const airlineChatbotVideo = '/videos/AIrline_Chatbot.mp4';
+const recruitmentVideo = '/videos/Multi Agent AI Recruitment Automation Platform.mp4';
 import './Projects.css';
 
 const Projects = () => {
