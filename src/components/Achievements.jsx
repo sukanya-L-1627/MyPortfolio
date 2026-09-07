@@ -6,25 +6,25 @@ const Achievements = () => {
     const list = [
         {
             type: "Achievement",
-            icon: <Trophy size={32} />,
+            icon: <Trophy size={22} />,
             title: "Code Unnati Finalist",
             description: "Recognized as Finalist in Back-to-Back Years – TASK Code Unnati Innovation Marathon (SAP & Edunet, 2025 & 2026)"
         },
         {
             type: "Certification",
-            icon: <ShieldCheck size={32} />,
+            icon: <ShieldCheck size={22} />,
             title: "OCI Data Science Professional",
             description: "Oracle Cloud Infrastructure 2025 Certified Data Science Professional"
         },
         {
             type: "Certification",
-            icon: <GraduationCap size={32} />,
+            icon: <GraduationCap size={22} />,
             title: "Emerging Technologies",
             description: "Emerging Technologies Certification – SAP & Edunet Foundation"
         },
         {
             type: "Certification",
-            icon: <Zap size={32} />,
+            icon: <Zap size={22} />,
             title: "LangChain Foundation",
             description: "Foundation: Introduction to LangChain – LangChain Academy"
         }

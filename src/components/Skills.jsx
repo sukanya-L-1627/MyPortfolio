@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BarChart3 } from 'lucide-react';
+import { BarChart3, Sparkles, MessageSquareText, Users, Search, Database } from 'lucide-react';
 import './Skills.css';
 
 const DevIcon = ({ src, alt, className = "" }) => (
@@ -41,7 +41,7 @@ const Skills = () => {
         },
         {
             name: "Ollama",
-            icon: <DevIcon src="https://avatars.githubusercontent.com/u/117351113?s=200&v=4" alt="Ollama" />,
+            icon: <DevIcon src="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/ollama.svg" alt="Ollama" />,
             desc: "Local LLM inference and model orchestration."
         },
         {
@@ -55,9 +55,14 @@ const Skills = () => {
             desc: "Retrieval-augmented generation for knowledge-driven AI."
         },
         {
-            name: "LaghGraph",
-            icon: <DevIcon src="https://cdn-icons-png.flaticon.com/512/3504/3504878.png" alt="LaghGraph" />,
+            name: "LangGraph",
+            icon: <DevIcon src="https://cdn-icons-png.flaticon.com/512/3504/3504878.png" alt="LangGraph" />,
             desc: "Graph-based reasoning and knowledge graph pipelines."
+        },
+        {
+            name: "CrewAI",
+            icon: <Users size={40} className="text-pink" />,
+            desc: "Multi-agent orchestration for collaborative AI workflows."
         },
         {
             name: "Agentic AI",
@@ -116,13 +121,68 @@ const Skills = () => {
         },
         {
             name: "NLP",
-            icon: <DevIcon src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="NLP" />,
+            icon: <DevIcon src="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/spacy.svg" alt="spaCy" />,
             desc: "Text understanding, summarization, and language pipelines."
         },
         {
             name: "SQL",
             icon: <DevIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" />,
             desc: "Data management and querying for AI datasets."
+        },
+        {
+            name: "Keras",
+            icon: <DevIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" />,
+            desc: "High-level neural network APIs for deep learning."
+        },
+        {
+            name: "Pandas",
+            icon: <DevIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" />,
+            desc: "Data wrangling and analysis for AI datasets."
+        },
+        {
+            name: "NumPy",
+            icon: <DevIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" />,
+            desc: "Numerical computing and array operations."
+        },
+        {
+            name: "PostgreSQL",
+            icon: <DevIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" />,
+            desc: "Relational database management with pgvector support."
+        },
+        {
+            name: "Flask",
+            icon: <DevIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" />,
+            desc: "Lightweight backend framework for AI APIs."
+        },
+        {
+            name: "Streamlit",
+            icon: <DevIcon src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/streamlit.svg" alt="Streamlit" />,
+            desc: "Rapid UI development for AI and data apps."
+        },
+        {
+            name: "Git",
+            icon: <DevIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />,
+            desc: "Version control for collaborative development."
+        },
+        {
+            name: "FAISS",
+            icon: <Search size={40} className="text-pink" />,
+            desc: "Fast similarity search over dense vector embeddings."
+        },
+        {
+            name: "ChromaDB",
+            icon: <Database size={40} className="text-pink" />,
+            desc: "Vector database for embeddings and semantic retrieval."
+        },
+        {
+            name: "Prompt Engineering",
+            icon: <MessageSquareText size={40} className="text-pink" />,
+            desc: "Crafting effective prompts for reliable LLM outputs."
+        },
+        {
+            name: "Claude",
+            icon: <Sparkles size={40} className="text-pink" />,
+            desc: "Anthropic's Claude models for reasoning and AI apps."
         }
     ];
 

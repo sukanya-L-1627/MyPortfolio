@@ -1,5 +1,5 @@
 import React from 'react';
-import { Brain, Cpu, MessageSquare, Database, Bot, LineChart } from 'lucide-react';
+import { Brain, Cpu, MessageSquare, Database, Bot, Workflow, Search, BarChart3 } from 'lucide-react';
 import './Services.css';
 
 const Services = () => {
@@ -7,38 +7,42 @@ const Services = () => {
         {
             title: "Generative AI Solutions",
             desc: "Designing and deploying custom LLM-based solutions, fine-tuning models, and prompt engineering.",
-            icon: <Brain size={40} className="text-pink" />
+            icon: <Brain size={32} className="text-pink" />
         },
         {
             title: "LLM & RAG Pipelines",
             desc: "Building advanced Retrieval-Augmented Generation (RAG) systems for knowledge retrieval and intelligent chat.",
-            icon: <MessageSquare size={40} className="text-pink" />
+            icon: <MessageSquare size={32} className="text-pink" />
         },
         {
             title: "Machine Learning Modeling",
             desc: "Developing predictive models, classification systems, and regression analysis using Scikit-Learn and XGBoost.",
-            icon: <Cpu size={40} className="text-pink" />
+            icon: <Cpu size={32} className="text-pink" />
         },
         {
             title: "NLP & Text Analytics",
             desc: "Implementing sentiment analysis, intent detection, and entity recognition systems for unstructured data.",
-            icon: <Bot size={40} className="text-pink" />
+            icon: <Bot size={32} className="text-pink" />
         },
         {
             title: "AI Agent Development",
             desc: "Creating autonomous agents using LangChain and AutoGPT for automated reasoning and execution.",
-            icon: <Database size={40} className="text-pink" />
+            icon: <Database size={32} className="text-pink" />
+        },
+        {
+            title: "Gen AI Agents & Automation",
+            desc: "Building multi-agent systems with CrewAI and LangGraph for orchestrated, autonomous task execution.",
+            icon: <Workflow size={32} className="text-pink" />
+        },
+        {
+            title: "Semantic Search & RAG",
+            desc: "Implementing vector search with FAISS and ChromaDB for context-aware, retrieval-driven AI responses.",
+            icon: <Search size={32} className="text-pink" />
         },
         {
             title: "Power BI",
             desc: "Data visualization and business intelligence dashboards.",
-            icon: <img
-                src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/microsoftpowerbi.svg"
-                alt="Power BI"
-                width={40}
-                height={40}
-                style={{ objectFit: 'contain' }}
-            />
+            icon: <BarChart3 size={32} className="text-pink" />
         }
     ];
 

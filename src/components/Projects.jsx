@@ -24,6 +24,20 @@ const Projects = () => {
 
     const projectList = [
         {
+            id: -1,
+            title: "RAG Cortex – AI-Powered Retrieval-Augmented Generation Platform",
+            domain: "RAG / Enterprise AI",
+            summary: "End-to-end RAG platform for enterprise document Q&A with semantic chunking, embeddings, and vector similarity search.",
+            icon: "📚",
+            description: [
+                "Built an end-to-end RAG system for enterprise document Q&A, implementing document ingestion, semantic chunking, and embedding generation using Ollama language models.",
+                "Integrated pgvector with PostgreSQL for efficient vector similarity search and retrieval of contextually relevant documents, reducing LLM hallucinations in generated responses.",
+                "Developed modular FastAPI backend services with containerized Docker deployment for scalable, production-ready AI application architecture."
+            ],
+            tech: ["Python", "LangChain", "FastAPI", "PostgreSQL/pgvector", "Ollama", "LLMs", "Embedding Models", "Docker"],
+            video: null,
+        },
+        {
             id: 0,
             title: "AI-Powered Multi-Agent Recruitment Automation Platform",
             domain: "Multi-Agent AI / Enterprise AI",
@@ -159,15 +173,17 @@ const Projects = () => {
                                 ))}
                             </div>
 
-                            <div className="project-footer-demo">
-                                <button
-                                    onClick={() => openVideo(project.video, project.title, project.description, project.icon)}
-                                    className="btn-demo-link-btn"
-                                >
-                                    <PlayCircle size={18} className="mr-2" />
-                                    <span>Watch Video Demo</span>
-                                </button>
-                            </div>
+                            {project.video && (
+                                <div className="project-footer-demo">
+                                    <button
+                                        onClick={() => openVideo(project.video, project.title, project.description, project.icon)}
+                                        className="btn-demo-link-btn"
+                                    >
+                                        <PlayCircle size={18} className="mr-2" />
+                                        <span>Watch Video Demo</span>
+                                    </button>
+                                </div>
+                            )}
                         </motion.div>
                     ))}
                 </div>

@@ -50,9 +50,7 @@ const Hero = () => {
 
                         </h1>
                         <p className="sinau-desc">
-                            Passionate AI/ML Engineer dedicated to building intelligent,
-                            data-driven systems. Specializing in Large Language Models (LLMs),
-                            RAG architectures, and scalable Machine Learning pipelines.
+                            I build intelligent systems that learn, adapt, and create real-world impact — combining Data Science, Machine Learning, Generative AI, and intelligent agents.
                         </p>
                         <div className="sinau-btns">
                             <a href="#contact" className="btn-pink">HIRE ME</a>

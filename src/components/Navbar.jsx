@@ -18,6 +18,7 @@ const Navbar = () => {
         { name: 'Home', href: '#home' },
         { name: 'About', href: '#about' },
         { name: 'Education', href: '#education' },
+        { name: 'Experience', href: '#experience' },
         { name: 'Achievements', href: '#achievements' },
         { name: 'Services', href: '#services' },
         { name: 'Skills', href: '#skills' },
@@ -29,7 +30,7 @@ const Navbar = () => {
         <nav className={`navbar ${scrolled ? 'nav-scrolled' : ''}`}>
             <div className="container nav-container">
                 <div className="nav-logo">
-                    <a href="#">L. SUKANYA<span></span></a>
+                    <a href="#">L Sukanya<span></span></a>
                 </div>
 
                 <div className={`nav-links-wrapper ${isMenuOpen ? 'open' : ''}`}>

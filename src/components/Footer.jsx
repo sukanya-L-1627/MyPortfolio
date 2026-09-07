@@ -9,11 +9,10 @@ const Footer = () => {
                 <div className="footer-content">
                     <div className="footer-item footer-about">
                         <div className="footer-logo">
-                            <a href="#">L. SUKANYA<span>.</span></a>
+                            <a href="#">L Sukanya<span>.</span></a>
                         </div>
                         <p>
-                            Dedicated AI/ML and Generative AI Engineer focused on building intelligent,
-                            data-driven systems and scalable Machine Learning solutions.
+                            AI/ML & Data Science Engineer building intelligent systems where data, machine learning, and innovation come together to solve real-world problems.
                         </p>
                         <div className="footer-social">
                             <a href="mailto:sukanyal1627@gmail.com" aria-label="Email" className="social-link"><Mail size={20} /></a>
@@ -29,6 +28,7 @@ const Footer = () => {
                             <li><a href="#home">Home</a></li>
                             <li><a href="#about">About</a></li>
                             <li><a href="#education">Education</a></li>
+                            <li><a href="#experience">Experience</a></li>
                             <li><a href="#achievements">Achievements</a></li>
                             <li><a href="#services">Services</a></li>
                             <li><a href="#skills">Skills</a></li>
@@ -47,7 +47,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} L. SUKANYA. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} L Sukanya. All rights reserved.</p>
                 </div>
             </div>
         </footer>
