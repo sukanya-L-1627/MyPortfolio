@@ -82,6 +82,12 @@
     width: 100%;
 }
 
+.form-status {
+    color: var(--accent-color);
+    font-size: 14px;
+    margin: -8px 0 16px;
+}
+
 .footer {
     background-color: var(--bg-darker);
     padding: 80px 0 30px;

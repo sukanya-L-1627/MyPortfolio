@@ -20,8 +20,7 @@ const About = () => {
                             <div className="about-main-img">
                                 <img src={profilePic} alt="Sukanya" />
                                 <div className="about-exp-badge">
-                                    <span className="about-exp-num">AI/ML</span>
-                                    <span className="about-exp-text">Engineer</span>
+                                    <span className="about-exp-num">Full Stack AI Engineer</span>
                                 </div>
                             </div>
                         </div>

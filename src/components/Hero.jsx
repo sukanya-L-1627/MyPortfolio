@@ -4,7 +4,7 @@ import profilePic from '../assets/profile.jpg';
 import './Hero.css';
 
 const Hero = () => {
-    const roles = ["Web Designer", "Front-end Developer", "UI/UX Designer"];
+    const roles = ["Full Stack AI Engineer", "GenAI & LLM Engineer", "Machine Learning Engineer"];
     const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
     const [displayText, setDisplayText] = useState("");
     const [isDeleting, setIsDeleting] = useState(false);
@@ -45,15 +45,17 @@ const Hero = () => {
                         transition={{ duration: 0.8 }}
                     >
                         <h1 className="sinau-heading">
-                            Your Vision,<span>My Innovation</span>
-                            <br />
-
+                            Hi, I&rsquo;m <span className="hero-name">Sukanya</span>
                         </h1>
+                        <p className="sinau-tagline">
+                            <span className="typed-text">{displayText}</span>
+                            <span className="typed-cursor">|</span>
+                        </p>
                         <p className="sinau-desc">
-                            I build intelligent systems that learn, adapt, and create real-world impact — combining Data Science, Machine Learning, Generative AI, and intelligent agents.
+                            I design and build end-to-end AI applications — from LLM-powered backends and RAG pipelines to intelligent, user-facing interfaces — turning Machine Learning and Generative AI into real-world products.
                         </p>
                         <div className="sinau-btns">
-                            <a href="#contact" className="btn-pink">HIRE ME</a>
+
                             <a href="/Lambaday_Sukanya__Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-outline ml-3">VIEW RESUME</a>
                         </div>
 

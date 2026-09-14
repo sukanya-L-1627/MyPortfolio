@@ -10,9 +10,9 @@ const Experience = () => {
             company: 'IKCON Digital IT Services Pvt Ltd, Hyderabad, India',
             period: 'Jun 2026 – Present',
             points: [
-                'Built and integrated RAG pipelines for enterprise knowledge retrieval, including document ingestion, chunking, embeddings, semantic search, and LLM-based contextual responses.',
-                'Developed audio transcription analysis workflows to process meeting recordings and extract actionable insights such as action items, tasks, risks, and follow-ups from transcripts.',
-                'Worked on AI-powered QA/testing agents and automation, leveraging LLMs and agentic workflows to support test-case generation, validation, issue identification, and real-time enterprise application testing.'
+                'Automated the UMS (Unified Meeting Suite) pipeline, including data loading and multi-modal (audio/video) transcript generation, with LLM-based classification of content into action items, situation summaries, and risks — reducing manual review effort.',
+                'Built and automated AI-powered QA/testing agents using LLM orchestration to auto-generate test cases, validate outputs, and flag issues, improving release reliability for enterprise applications.',
+                'Project — RAG Cortex: built an end-to-end RAG system for enterprise document Q&A with semantic chunking, embedding generation using Ollama, and pgvector-based vector similarity search to reduce LLM hallucinations.'
             ]
         },
         {
