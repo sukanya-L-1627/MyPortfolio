@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { PlayCircle } from 'lucide-react';
+import { PlayCircle, Github } from 'lucide-react';
 import { motion } from 'framer-motion';
 import VideoModal from './VideoModal';
 const emotionVideo = '/videos/Intent & Emotion Intelligence System.mp4';
@@ -53,6 +53,7 @@ const Projects = () => {
             ],
             tech: ["CrewAI", "LangChain", "Gemini API", "Sentence Transformers", "FAISS", "React.js", "Python", "RAG", "NLP", "Vector DB"],
             video: recruitmentVideo,
+            github: "https://github.com/sukanya-L-1627/multi_recruit_agent",
         },
         {
             id: 1,
@@ -97,6 +98,7 @@ const Projects = () => {
             ],
             tech: ["Python", "Streamlit", "Gemini Flash", "Google AI Studio API", "Prompt Engineering", "Query Validation"],
             video: airlineChatbotVideo,
+            github: "https://github.com/sukanya-L-1627/airlines-chatbot",
         },
         {
             id: 4,
@@ -111,6 +113,7 @@ const Projects = () => {
             ],
             tech: ["Python", "Pandas", "Streamlit", "Apriori"],
             video: movieRecommendationVideo,
+            github: "https://github.com/sukanya-L-1627/movie-recommendation-system",
         },
         {
             id: 5,
@@ -125,6 +128,7 @@ const Projects = () => {
             ],
             tech: ["NLP", "Scikit-learn", "Python", "Streamlit"],
             video: emotionVideo,
+            github: "https://github.com/sukanya-L-1627/intent-emotion-nlp-system",
         },
         {
             id: 6,
@@ -139,6 +143,7 @@ const Projects = () => {
             ],
             tech: ["Python", "XGBoost", "Random Forest", "NLP", "Scikit-learn", "Streamlit"],
             video: churnVideo,
+            github: "https://github.com/sukanya-L-1627/customer-churn-intelligence",
         }
     ];
 
@@ -173,15 +178,30 @@ const Projects = () => {
                                 ))}
                             </div>
 
-                            {project.video && (
-                                <div className="project-footer-demo">
-                                    <button
-                                        onClick={() => openVideo(project.video, project.title, project.description, project.icon)}
-                                        className="btn-demo-link-btn"
-                                    >
-                                        <PlayCircle size={18} className="mr-2" />
-                                        <span>Watch Video Demo</span>
-                                    </button>
+                            {(project.video || project.github) && (
+                                <div className="project-footer-demo" style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginTop: '15px' }}>
+                                    {project.video && (
+                                        <button
+                                            onClick={() => openVideo(project.video, project.title, project.description, project.icon)}
+                                            className="btn-demo-link-btn"
+                                            style={{ display: 'flex', alignItems: 'center', background: 'transparent', border: 'none', cursor: 'pointer', padding: 0 }}
+                                        >
+                                            <PlayCircle size={18} className="mr-2" />
+                                            <span>Watch Demo</span>
+                                        </button>
+                                    )}
+                                    {project.github && (
+                                        <a
+                                            href={project.github}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="btn-demo-link-btn"
+                                            style={{ display: 'flex', alignItems: 'center', textDecoration: 'none', cursor: 'pointer' }}
+                                        >
+                                            <Github size={18} className="mr-2" />
+                                            <span>Source Code</span>
+                                        </a>
+                                    )}
                                 </div>
                             )}
                         </motion.div>

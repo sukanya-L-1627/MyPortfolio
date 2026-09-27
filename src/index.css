@@ -2,15 +2,15 @@
 
 :root {
   /* Yara Theme Colors */
-  --bg-primary: #353434;
+  --bg-primary: #2d2b38;
   --bg-secondary: #ffffff;
-  --bg-darker: #2b2a2a;
-  --accent-color: #FF0066;
+  --bg-darker: #1f1e29;
+  --accent-color: #b794f4;
   --text-white: #ffffff;
-  --text-grey: #bbbbbb;
-  --text-dark: #353434;
+  --text-grey: #b8b4c4;
+  --text-dark: #2d2b38;
   --border-color: rgba(255, 255, 255, 0.1);
-  
+
   --font-primary: 'Poppins', sans-serif;
 }
 
@@ -150,12 +150,25 @@ a {
 }
 
 @media (max-width: 991px) {
-  h1 { font-size: 60px; }
-  h2 { font-size: 32px; }
-  .section-padding { padding: 80px 0; }
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .section-padding {
+    padding: 80px 0;
+  }
 }
 
 @media (max-width: 767px) {
-  h1 { font-size: 40px; }
-  h2 { font-size: 28px; }
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
 }
