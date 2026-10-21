@@ -4,7 +4,7 @@ import profilePic from '../assets/profile.jpg';
 import './Hero.css';
 
 const Hero = () => {
-    const roles = ["Full Stack AI Engineer", "GenAI & LLM Engineer", "Machine Learning Engineer"];
+    const roles = ["Full Stack AI Engineer", "GenAI & LLM Engineer", "Machine Learning Engineer", "Software Engineer"];
     const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
     const [displayText, setDisplayText] = useState("");
     const [isDeleting, setIsDeleting] = useState(false);

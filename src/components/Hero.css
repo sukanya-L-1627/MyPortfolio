@@ -30,7 +30,7 @@
 }
 
 .sinau-heading span {
-    background: linear-gradient(to right, var(--accent-color), #ff4d94);
+    background: linear-gradient(135deg, #dfc299 0%, var(--accent-color) 60%, #9e7547 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -43,7 +43,7 @@
 
 .hero-name:hover {
     transform: scale(1.06) rotate(-1deg);
-    filter: drop-shadow(0 0 18px rgba(255, 0, 102, 0.6));
+    filter: drop-shadow(0 0 18px rgba(197, 155, 109, 0.6));
 }
 
 .sinau-tagline {

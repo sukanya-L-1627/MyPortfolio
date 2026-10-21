@@ -23,7 +23,7 @@
 
 .education-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 20px 40px rgba(255, 0, 102, 0.2);
+    box-shadow: 0 20px 40px rgba(197, 155, 109, 0.25);
     border-color: var(--accent-color);
 }
 

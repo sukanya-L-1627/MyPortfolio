@@ -157,8 +157,8 @@
 
 .btn-pink-outline:hover {
     background-color: var(--accent-color);
-    color: var(--text-white);
-    box-shadow: 0 10px 20px rgba(255, 0, 102, 0.3);
+    color: #14110f;
+    box-shadow: 0 10px 25px rgba(197, 155, 109, 0.4);
 }
 
 @media (max-width: 1199px) {
